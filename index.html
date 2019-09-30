@@ -9,7 +9,19 @@
     <body>
         <center>
         <h1 id="Titulo">Introduce tu Fecha</h1>
-        <p><input id="FECHA" type="text" placeholder="AAAA, MM, DD" 
+        <form action="/action_page.php" method="get">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <input type="submit">
+        </form>
+        
+        <p><input id="FECHA" type="list" placeholder="AAAA, MM, DD" 
             style="font-size:2em; text-align: center"></p>
             <p>Ej. 1990, 01, 14</p>
         <p><input id="boton" type="button" value="Aceptar"
