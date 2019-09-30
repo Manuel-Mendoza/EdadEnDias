@@ -6,7 +6,7 @@ function DIASdeEDAD(){
     const diferencia = Math.abs(hoy - edad);
     var almanaque= Math.floor(diferencia / dia);
     MOSTRAR.innerHTML = `Usted Tiene  ${almanaque} días de Edad`
-    MOSTRAR2.innerHTML = `${almanaque / 365 } AÑOS`
+    MOSTRAR2.innerHTML = `${Math.floor(almanaque / 365) } AÑOS`
 } 
 
 const hoy = new Date();
