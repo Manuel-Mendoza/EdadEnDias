@@ -7,7 +7,7 @@ body{
 #Titulo{
     color: red;
     font-size:2em;
-    font-family: cursive;
+    font-family: sans-serif;
 
 }
 
@@ -17,10 +17,17 @@ body{
 
 #NOTA{
     font-size:1.5em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial;
 
 }
 #MOSTRAR{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: cursive;
     color: darkred;
+}
+p{
+    font-size: 1.5em
+}
+h4{
+    font-size:1.5em;
+    font-family: monospace;
 }
