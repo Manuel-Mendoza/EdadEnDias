@@ -1,9 +1,7 @@
 body{
     
     color: white;
-    background: url(submerged_desktop_thumb.jpg) center center;
-    min-height:100%;
-    background-size:cover ;
+    background: gray;
 }
 
 #Titulo{
