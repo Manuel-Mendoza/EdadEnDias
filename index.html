@@ -9,8 +9,9 @@
     <body>
         <center>
         <h1 id="Titulo">Introduce tu Fecha</h1>
+        <p>
         <form action="/action_page.php" method="get">
-            <input list="Años" placeholder="Año" style="text-align: center;">
+            <input id="edades" list="Años" placeholder="Año" style="text-align: center;">
             <datalist id="Años">
                 <option value="1970">
                 <option value="1971">
@@ -65,6 +66,27 @@
             </datalist>
             <input type="submit">
         </form>
+    </p>
+    <p>
+    <form action="/action_page.php" method="get">
+        <input id="edades" list="Años" placeholder="Año" style="text-align: center;">
+        <datalist id="Años">
+            <option value="ENERO">
+            <option value="FEBRERO">
+            <option value="MARZO">
+            <option value="ABRIL">
+            <option value="MAYO">
+            <option value="JUNIO">
+            <option value="JULIO">
+            <option value="AGOSTO">
+            <option value="SEPTIEMBRE">
+            <option value="OCTUBRE">
+            <option value="NOVIEMBRE">
+            <option value="DICIEMBRE">
+                </datalist>
+                <input type="submit">
+            </form>
+        </p>
         <p id="Ej">Ej. 1990, 01, 14</p>
         <p><input id="boton" type="button" value="Aceptar"
             style="font-size: 2em"></p>
