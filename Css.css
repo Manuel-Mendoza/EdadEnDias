@@ -1,0 +1,26 @@
+#FOND{
+    
+    color: white;
+    background:  black
+}
+#Imag{
+    background: url(PDW_2560x1600_SPACEWALK.jpg) center center;
+    min-height:100%;
+    background-size:cover ;
+}
+
+#Titulo{
+    font-size:2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#FECHA{
+    font-family: cursive;
+}
+
+#NOTA{
+    font-size:1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
