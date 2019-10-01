@@ -1,13 +1,14 @@
 body{
     
     color: white;
-    background: gray;
+    background: url(37178wide.png) no-repeat;
+    background-size: 100%;
 }
 
 #Titulo{
     color: darkred;
     font-size:2em;
-    font-family: sans-serif;
+    font-family: cursive;
 
 }
 
@@ -36,7 +37,9 @@ h4{
     font-size:1.5em;
     font-family: monospace;
 }
-#edades{
-    width: 48px;
+#AAAA{
+    width: 106px;
 
+}.datos{
+    font-size: 30px;
 }
